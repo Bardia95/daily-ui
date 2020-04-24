@@ -1,0 +1,123 @@
+/* Background */
+
+.background {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    background: #F4D4D7;
+}
+
+/* White box */
+
+.white-box {
+    position: absolute;
+    width: 238px;
+    height: 193px;
+    background: #FFFFFF;
+}
+
+/* Sign up text */
+
+.sign-up-text {
+    position: absolute;
+    width: 40px;
+    height: 373px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0E1544;
+}
+
+/* Red circle */
+
+.red-circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #F25A5C;
+}
+
+/* Blurred box */
+
+.blurred-box {
+    position: absolute;
+    width: 238px;
+    height: 186px;
+    background: rgba(255, 255, 255, 0.5);
+    /* Note: backdrop-filter has minimal browser support */
+    backdrop-filter: blur(22px);
+}
+
+
+/* Email box */
+
+.email-box {
+    position: absolute;
+    width: 379px;
+    height: 90px;
+    background: #3D4878;
+}
+
+
+/* Email text */
+.email-text {
+    position: absolute;
+    width: 370px;
+    height: 71px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* Title */
+
+.title {
+    position: absolute;
+    width: 409px;
+    height: 153px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 67px;
+    line-height: 79px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #0E1544;
+}
+
+
+/* Button */
+
+.button {
+    position: absolute;
+    width: 237px;
+    height: 96px;
+    background: #8BE7A5;
+}
+
+/* Button text */
+
+.button {
+    position: absolute;
+    width: 127px;
+    height: 53px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
